@@ -22,14 +22,7 @@ git branch -M main
 git push -u origin main
 ```
 
-### commands
-
-```
-$ git status
-$ git add . && git commit -m "msg"
-```
-
-#### git ignore commands
+### git ignore commands
 
 ```
 $ git config --global alias.ignore '!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi'
