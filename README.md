@@ -25,7 +25,7 @@ git push -u origin main
 ### git ignore commands
 
 ```
-$ git config --global alias.ignore '!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi'
+git config --global alias.ignore '!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi'
 
-$ git ignore macOS >> .gitignore
+git ignore macOS >> .gitignore
 ```
