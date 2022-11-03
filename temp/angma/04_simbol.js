@@ -10,6 +10,7 @@ console.log(obj[false]);
 console.log(obj['1']);
 console.log(obj['false']); // 문자형으로도 접근이 가능했음
 
+// property key:심볼형
 // Symbol :: new를 붙이지 않음
 // 심볼은 유일한 식별자를 만들 때 사용한다.
 const a = Symbol();
@@ -23,7 +24,7 @@ console.log(a == b); //동등연산자도 false임
 
 // 유일성 보장, 전체 코드 중 딱 하나라는 뜻
 // Property key:심볼형
-const id = Symbol('id'); // 이렇게 설명을 붙일 수 있고, 디버깅할 때 편함
+const id = Symbol('id'); // 이렇게 이름을 붙일 수 있고, 디버깅할 때 편함
 const id2 = Symbol('id'); // 이름이 같아도 다 다른 존재
 console.log(`id == id2는 ${id == id2}`);
 const user = {
