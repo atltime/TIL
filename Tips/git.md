@@ -41,3 +41,16 @@ git merge 브랜치명(메인브랜치에서 해야함)
 ```
 
 - conflict 해결은 원하는 코드만 남기고 git add git commit하면 됨
+
+##### 브랜치 삭제
+
+```
+로컬 삭제는 간단
+git switch main // 삭제 대상이 아닌 브랜치로 이동
+git checkout main // 이것도 가능
+
+git branch -d <branch>
+
+원격에서 브랜치 삭제
+git push orgin --delete <branch>
+```
