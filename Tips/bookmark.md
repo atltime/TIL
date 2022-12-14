@@ -24,6 +24,8 @@
 
 [jQuery Cheat Sheet](https://oscarotero.com/jquery/)
 
+[Animation easing](https://easings.net/ko#)
+
 [https://demo.mobiscroll.com/](https://demo.mobiscroll.com/jquery/navigation/prevnext#)
 
 ## 임시3
